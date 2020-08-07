@@ -1,0 +1,38 @@
+{
+  "name": "nurse-assist",
+  "version": "1.0.0",
+  "description": "1. Click on Fork button at the top right corner to fork the repo.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pm2-dev start ./bin/main",
+    "start": "pm2 start ./bin/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.23.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.27",
+    "nodemailer": "^6.4.11",
+    "pm2": "^4.4.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nurse-Assist/nurse-assist-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nurse-Assist/nurse-assist-api/issues"
+  },
+  "homepage": "https://github.com/Nurse-Assist/nurse-assist-api#readme"
+}
